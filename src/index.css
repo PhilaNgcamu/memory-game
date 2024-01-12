@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

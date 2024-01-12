@@ -1,0 +1,111 @@
+body {
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(40, 95, 177), rgb(9, 83, 133));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Game {
+  max-width: 80%;
+  margin: 40px auto;
+}
+
+@media (min-width: 768px) {
+  .Game {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Game {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .Game {
+    margin: 10px auto;
+  }
+}
+
+button {
+  position: relative;
+  padding: 7px 12px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #4f38c2;
+  overflow: hidden;
+  background: linear-gradient(160deg, #0099ff, #003cff);
+  background-position: 25% 50%;
+  background-size: 200%;
+}
+
+button:hover {
+  background-position: 50% 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+img {
+  width: 5em;
+}
+
+.timer {
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  top: 49.7px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  background-image: linear-gradient(160deg, #0099ff, #003cff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 7px 20px;
+}
+
+.cardTurns {
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  top: 25px;
+  right: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(160deg, #0099ff, #004cff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 7px 20px;
+}
+
+@media (max-width: 600px) {
+  .cardTurns {
+    top: 35.5px;
+    right: 10px;
+    padding: 6px 12px;
+    font-size: 20px;
+  }
+  .timer {
+    font-size: 20px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardTurns {
+    top: 35.5px;
+    right: 10px;
+    padding: 4px 12px;
+    font-size: 17px;
+  }
+  .timer {
+    font-size: 17px;
+    padding: 4px 12px;
+  }
+}

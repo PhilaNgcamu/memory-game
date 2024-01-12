@@ -1,0 +1,11 @@
+.grid-2x2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3x2 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4x3 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
